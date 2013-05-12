@@ -1,0 +1,4 @@
+flex cl.l
+yacc -d cl.y
+gcc -o cl y.tab.c lex.yy.c -lfl
+./cl
